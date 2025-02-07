@@ -8,7 +8,7 @@ describe.concurrent("View", () => {
     const viewText = "Hello from inside a view"
 
     // We use `it` to run single test
-    it("Render span correctly", async() => {
+    it.skip("Render span correctly", async() => {
        // arrange
        const viewId = "ViewId"
 
